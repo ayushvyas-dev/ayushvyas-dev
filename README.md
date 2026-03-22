@@ -18,7 +18,7 @@
 
 - 🔭 Currently building **full-stack web apps** with Next.js & MongoDB
 - 🌱 Deepening my knowledge of **server-side rendering, REST APIs & auth flows**
-- 🎯 Goal: Land a **web development internship** in 2025
+- 🎯 Goal: Land a **web development internship** in 2026
 - ⚡ I believe in learning by building — not just watching tutorials
 
 ---
