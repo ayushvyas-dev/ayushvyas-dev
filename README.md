@@ -1,10 +1,34 @@
-# Hi, I'm Ayush Vyas 👋
+<h1 align="center">Hi, I'm Ayush Vyas 👋</h1>
 
-> Building real-world web projects to become job-ready.
+<p align="center">
+  <em>Full-Stack Web Developer · Building real-world projects to become job-ready</em>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/ayushvyas1">
+    <img src="https://img.shields.io/badge/LinkedIn-ayushvyas1-0A66C2?style=flat&logo=linkedin&logoColor=white" />
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Ayushvyas8080&label=Profile+Views&color=0e75b6&style=flat" />
+</p>
+
+---
+
+## 👨‍💻 About Me
+
+- 🔭 Currently building **full-stack web apps** with Next.js & MongoDB
+- 🌱 Deepening my knowledge of **server-side rendering, REST APIs & auth flows**
+- 🎯 Goal: Land a **web development internship** in 2025
+- ⚡ I believe in learning by building — not just watching tutorials
 
 ---
 
 ## 🛠️ Tech Stack
+
+**Full-Stack**
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+> API Routes · Server & Client Components · SSR · SSG · Middleware
 
 **Frontend**
 
@@ -12,7 +36,6 @@
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 
 **Backend**
@@ -39,19 +62,24 @@
 
 ## 🚀 Projects
 
-### [Subscription Tracker](https://github.com/ayushvyas-dev/subscription-tracker)
-A web app to track and manage your subscriptions in one place.
-Built with **Next.js · MongoDB · Mongoose · NextAuth · Tailwind CSS**
+### 📦 [Subscription Tracker](https://github.com/ayushvyas-dev/subtracker)
+
+> Track and manage all your subscriptions in one place — never miss a renewal.
+
+- 🔐 Secure authentication with **NextAuth.js**
+- 📋 Add, view and manage subscriptions with billing cycles
+- 🌐 Deployed on **Vercel** with MongoDB Atlas as the database
+
+**Stack:** Next.js · MongoDB · Mongoose · NextAuth · Tailwind CSS
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-000000?style=flat&logo=vercel&logoColor=white)](https://subtracker-phi.vercel.app/)
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/ayushvyas-dev/subtracker)
 
 ---
 
 
-## 🔗 Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ayushvyas1-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayushvyas1)
-
----
 
 <p align="center">
-  <i>Open to internship opportunities — let's build something great together.</i>
+  <i>Open to internship opportunities — let's build something great together.</i><br/>
+  <a href="https://www.linkedin.com/in/ayushvyas1">Connect with me on LinkedIn</a>
 </p>
