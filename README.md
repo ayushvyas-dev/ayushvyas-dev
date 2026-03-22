@@ -81,5 +81,5 @@
 
 <p align="center">
   <i>Open to internship opportunities — let's build something great together.</i><br/>
-  <a href="https://www.linkedin.com/in/ayushvyas1">Connect with me on LinkedIn</a>
+ 
 </p>
