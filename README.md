@@ -1,7 +1,7 @@
-<h1 align="center">Hi, I'm Ayush Vyas 👋</h1>
+# Hi, I'm Ayush Vyas 👋
 
 <p align="center">
-  <em>AI & LLM Systems Engineer · Building Production Agentic Architectures, RAG Pipelines & Guardrail Frameworks</em>
+  <em>CS student interested in AI engineering, backend development, and building useful AI applications.</em>
 </p>
 
 <p align="center">
@@ -17,22 +17,22 @@
 ## 👨‍💻 About Me
 
 - 🎓 BTech Computer Science student at **MAIT, Delhi**
-- 🤖 Specializing in **AI Engineering, Agentic Workflows, RAG Architectures & LLM Reliability**
-- 🏗️ Building production-grade AI systems with **Python, LangGraph, FastAPI, pgvector & Next.js**
-- 🧠 Deep focus on **stateful agent orchestration, hybrid vector search (pgvector & Pinecone), multi-layer guardrails & automated evaluation harnesses**
-- 🛡️ Passionate about solving core production AI challenges: hallucination prevention, latency & cost optimization, prompt injection defense, and strict PII protection
-- 🎯 Goal: Engineer high-reliability AI/LLM infrastructure and contribute to forward-thinking AI teams
-- ⚡ I learn by building complex systems from first principles and stress-testing them under real workloads
+- 🤖 Interested in **AI Engineering, LLMs, RAG, and AI agents**
+- 🏗️ Building AI applications using **Python, FastAPI, LangGraph, PostgreSQL, and Next.js**
+- 🧠 Enjoy working on backend systems, agent workflows, vector search, and LLM evaluation
+- 🔍 Interested in making AI applications more reliable, secure, and cost-efficient
+- ⚡ I learn best by building projects, testing them, and figuring out how things work.
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Languages:** Python, SQL, TypeScript, JavaScript, C++
-- **AI & LLM Engineering:** Retrieval-Augmented Generation (RAG), Agentic AI, LangGraph, LangChain, Embeddings, Hybrid Search, Prompt Engineering, LLM Guardrails
-- **LLM Evaluation & APIs:** LLM Evaluation, Recall@k, MRR, Groq, Google Gemini
-- **Backend & Databases:** FastAPI, REST APIs, Pydantic, PostgreSQL, Supabase, Pinecone, pgvector, Redis, MongoDB, Node.js
-- **Tools & DevOps:** Docker, Git, GitHub Actions, pytest, Linux, Prometheus, OpenTelemetry
+- **AI & LLMs:** RAG, LangChain, LangGraph, AI Agents, Embeddings, Vector Search, Prompt Engineering, LLM Guardrails
+- **LLM APIs & Evaluation:** Groq, Google Gemini, Recall@k, MRR, LLM Evaluation
+- **Backend:** FastAPI, Node.js, Express, REST APIs, Pydantic
+- **Databases & Caching:** PostgreSQL, Supabase, Pinecone, pgvector, Redis, MongoDB
+- **Tools:** Docker, Git, GitHub Actions, pytest, Linux, Prometheus, OpenTelemetry
 
 ---
 
@@ -40,78 +40,81 @@
 
 ### 🤖 AI Customer Support Agent
 
-> An enterprise-ready agentic email support platform orchestrating self-correcting RAG workflows, multi-layer guardrails, and real-time push webhooks.
+An AI-powered email support system that reads customer queries, searches company documents, and drafts replies based on relevant policies.
 
-Built with a focus on **agent state machine orchestration, hallucination prevention, defense-in-depth safety, and production resilience**.
+Some things I worked on:
 
-- 🔄 **LangGraph State Machine**: Cyclic agent orchestration with document relevance grading, runtime query rewriting, and self-correcting output retry loops
-- 📚 **pgvector Semantic Search**: Chunks policies into 768-dimensional embeddings in Supabase PostgreSQL with cosine similarity search and policy grounding checks
-- 🛡️ **Multi-Layer AI Guardrails**: Ingress prompt injection interception, bidirectional PII masking (Luhn-validated payment cards, CVVs, credentials) without corrupting order IDs, and unauthorized commitment detection (refunds, discounts, callbacks)
-- ⚡ **Heterogeneous Model Cascade**: Low-latency classification via Groq (`gpt-oss-120b`) combined with grounded synthesis on Google Gemini (`gemini-2.5-flash`) and fallback redundancy
-- 📬 **Real-Time Push Ingestion**: Event-driven Google Cloud Pub/Sub push webhooks to FastAPI with idempotent message processing and automatic Gmail watch renewal
-- 📊 **Benchmarked & Tested**: Backed by a 42-test automated unit suite (100% pass) and evaluated against a 100-scenario golden benchmark across 11 edge-case categories
+- **Agent Workflow:** Used LangGraph to manage the agent's workflow, including document relevance checks, query rewriting, and retrying answers when the retrieved information isn't good enough.
+- **Document Search:** Stored policy documents as 768-dimensional embeddings in Supabase PostgreSQL and used pgvector for semantic search.
+- **AI Safety:** Added checks for prompt injection, sensitive information, and replies that make unauthorized promises about refunds, discounts, or callbacks.
+- **Multiple LLMs:** Used Groq (`gpt-oss-120b`) for faster classification and Google Gemini (`gemini-2.5-flash`) for generating responses, with fallback support.
+- **Email Integration:** Used Google Cloud Pub/Sub to receive Gmail updates through push webhooks. Added duplicate-message handling and automatic Gmail watch renewal.
+- **Testing:** Added 42 unit tests, all passing, and tested the agent against 100 scenarios covering 11 different edge-case categories.
 
-**Stack:** Python · FastAPI · LangChain · LangGraph · Supabase pgvector · Groq · Google Gemini · GCP Pub/Sub · Next.js · Docker
+**Tech Stack:** Python · FastAPI · LangChain · LangGraph · Supabase pgvector · Groq · Google Gemini · GCP Pub/Sub · Next.js · Docker
 
 **Links:**
-[![Live Demo](https://img.shields.io/badge/Live_Demo-000000?style=flat&logo=vercel&logoColor=white)](https://ai-customer-support-coral-eight.vercel.app)
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-000000?style=flat&logo=vercel&logoColor=white)](https://ai-customer-support-coral-eight.vercel.app/)
 [![API Docs](https://img.shields.io/badge/API_Docs-009688?style=flat&logo=fastapi&logoColor=white)](https://ai-customer-support-jp8w.onrender.com/docs)
 [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/ayushvyas-dev/ai-customer-support)
 
 ---
 
-### 🛡️ LLM Guard — AI Security & Reliability Middleware
+### 🛡️ LLM Guard — Secure LLM Gateway
 
-> An API-first security, validation, and policy enforcement gateway designed to safeguard LLM applications and AI agents in production.
+A gateway for LLM applications that handles API requests, checks for security threats, and routes requests across different AI providers.
 
-Built with a focus on **adversarial robustness, low-latency synchronous inspection, data privacy, and asynchronous AI verification**.
+Some things I worked on:
 
-- 🚫 **Prompt Injection & Jailbreak Defense**: Real-time detection of instruction hierarchy overrides, system prompt exfiltration attempts, and adversarial jailbreak templates
-- 🔒 **High-Throughput PII Redaction**: Deterministic rules and regex for Indian PAN, Aadhaar, credit cards, CVVs, passwords, IP addresses, and API credentials with zero-leak redaction
-- 🧩 **Agent Tool-Call & Output Validation**: Intercepts and validates LLM tool invocations, parameter boundaries, and schema conformity before actions run
-- ⚖️ **Risk Scoring & Policy Engine**: Multi-tier risk classification with automated `allow`, `flag`, or `block` decisions based on configurable sensitivity thresholds
-- 📬 **Asynchronous Verification Jobs**: BullMQ and Redis task queues for background verification scans, deep claim validation, and audit analysis
-- 📝 **Comprehensive Audit Logging**: Structured logging of prompts, scanner detections, risk scores, and latency metrics stored in PostgreSQL via Prisma
+- **Prompt Injection Detection:** Built multiple detection checks using Unicode normalization (NFKC), homoglyph detection, zero-width character removal, and pattern matching to catch attempts to bypass system instructions.
+- **PII & Secret Detection:** Detects sensitive information such as AWS keys, GitHub tokens, JWTs, and payment card numbers. Uses Luhn checksum validation for credit card detection.
+- **LLM Gateway:** Built an OpenAI-compatible `/v1/chat/completions` API that routes requests between Groq and Google Gemini, with circuit breakers and automatic fallbacks.
+- **Rate Limiting & Caching:** Implemented Redis-based sliding-window rate limiting per API key and SHA-256 prompt hashing for exact-match cache lookups.
+- **Request Tracing:** Tracks request latency, token usage, and estimated API costs, with asynchronous PostgreSQL trace storage.
+- **Admin Dashboard:** Built a Next.js 16 dashboard with session management, API key management, and an interactive API playground.
 
-**Stack:** TypeScript · Node.js · Express · Groq · BullMQ · Redis · PostgreSQL · Prisma · Zod
+**Tech Stack:** Python · FastAPI · Pydantic v2 · SQLAlchemy · PostgreSQL · Redis · Groq · Google Gemini · Structlog · Next.js · Docker
 
 **Links:**
+
 [![Live Demo](https://img.shields.io/badge/Live_Demo-000000?style=flat&logo=vercel&logoColor=white)](https://guardllm.vercel.app/)
 [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/ayushvyas-dev/llmguard)
 
 ---
 
-### 🔍 IncidentIQ — Grounded Incident Investigation & Decision-Support
+### 🔍 IncidentIQ — Incident Investigation Platform
 
-> An evidence-grounded incident investigation and operational decision-support platform that synthesizes root-cause hypotheses with exact quote citations.
+A tool that helps investigate technical incidents by searching through runbooks, postmortems, and other engineering documents. It generates possible root causes and backs its findings with exact quotes from the source documents.
 
-Built with a focus on **hybrid search ranking, strict evidence citation, model resilience, and full-stack observability**.
+Some things I worked on:
 
-- 🔎 **Hybrid Retrieval Engine**: Fuses PostgreSQL full-text search (lexical) with Pinecone dense semantic vector search via Reciprocal Rank Fusion (RRF)
-- 📑 **Asynchronous Document Ingestion**: Ingests runbooks, incident postmortems, architecture diagrams, and PDFs with deterministic chunking via ARQ and Redis workers
-- 📌 **Exact Quote Citation Verification**: Synthesizes structured root-cause hypotheses and safe, read-only diagnostic steps strictly verified against verbatim source text
-- 🔄 **Resilient LLM Routing**: Primary generation via Groq with automated Gemini fallbacks, exponential backoff retries, and circuit breakers
-- 📈 **Evaluation Harness**: Offline and online benchmarking across versioned validation/holdout splits computing `Recall@k`, `Hit Rate`, `MRR`, `nDCG`, quote support rate, and latency/token costs
-- 🔭 **Production Observability**: Full observability stack with Prometheus exposition (`/metrics`), structured logs, and OpenTelemetry (OTel) distributed tracing hooks
+- **Hybrid Search:** Combined PostgreSQL full-text search with Pinecone vector search using Reciprocal Rank Fusion (RRF).
+- **Document Processing:** Built a background ingestion pipeline for runbooks, postmortems, architecture diagrams, and PDFs using ARQ and Redis.
+- **Source Citations:** Generates root-cause hypotheses and read-only diagnostic steps, with quotes checked against the original documents.
+- **LLM Fallbacks:** Uses Groq for responses and automatically switches to Gemini when needed, with retries and circuit breakers.
+- **Search Evaluation:** Built an evaluation setup to measure Recall@k, Hit Rate, MRR, nDCG, citation accuracy, latency, and token costs.
+- **Monitoring:** Added Prometheus metrics, structured logs, and OpenTelemetry tracing to monitor the application.
 
-**Stack:** Python · FastAPI · SQLAlchemy · Pinecone · NeonDB PostgreSQL · ARQ · Redis · OpenTelemetry · Prometheus · Next.js
+**Tech Stack:** Python · FastAPI · SQLAlchemy · Pinecone · NeonDB PostgreSQL · ARQ · Redis · OpenTelemetry · Prometheus · Next.js
 
 **Links:**
+
 [![Live Demo](https://img.shields.io/badge/Live_Demo-000000?style=flat&logo=vercel&logoColor=white)](https://incidentiq-ai.vercel.app/)
 [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/ayushvyas-dev/incidentiq)
 
 ---
 
-## 🎯 Currently Learning
+## 📚 Currently Learning
 
-- Advanced Multi-Agent Orchestration & Hierarchical Decision-Making
-- Advanced Retrieval Strategies (Contextual Retrieval, ColBERT & GraphRAG)
-- LLM Evaluation Frameworks (Ragas, DeepEval & red-teaming benchmarks)
-- AI Safety, Prompt Injection Robustness & Alignment
-- Distributed LLM Inference, Latency & Cost Optimization
+- Building more advanced AI agents with LangGraph
+- Better retrieval techniques like Contextual Retrieval, ColBERT, and GraphRAG
+- LLM testing and evaluation using Ragas and DeepEval
+- Improving LLM security and handling prompt injection
+- Making AI applications faster and cheaper to run
 
 ---
 
 <p align="center">
-  <i>Building reliable AI systems, breaking things, understanding them from first principles, and getting better every day.</i>
+  <em>Building projects, learning new things, and figuring out how to make them better.</em>
 </p>
