@@ -27,12 +27,11 @@
 
 ## 🛠️ Tech Stack
 
-- **Languages:** Python, SQL, TypeScript, JavaScript, C++
-- **AI & LLMs:** RAG, LangChain, LangGraph, AI Agents, Embeddings, Vector Search, Prompt Engineering, LLM Guardrails
-- **LLM APIs & Evaluation:** Groq, Google Gemini, Recall@k, MRR, LLM Evaluation
-- **Backend:** FastAPI, Node.js, Express, REST APIs, Pydantic
-- **Databases & Caching:** PostgreSQL, Supabase, Pinecone, pgvector, Redis, MongoDB
-- **Tools:** Docker, Git, GitHub Actions, pytest, Linux, Prometheus, OpenTelemetry
+- **Languages:** Python, TypeScript, JavaScript, C++, SQL
+- **AI & LLM Engineering:** Retrieval-Augmented Generation (RAG), Agentic AI, LLM Guardrails, Prompt Engineering, Embeddings, Hybrid Search, LLM Evaluation
+- **Frameworks & Libraries:** LangChain, LangGraph, FastAPI, Pydantic, Node.js, Next.js
+- **Data & Vector Stores:** PostgreSQL, Supabase, Pinecone, pgvector, Redis, MongoDB
+- **Infrastructure & DevOps:** Docker, Git, GitHub Actions, CI/CD, Linux, pytest, Prometheus, OpenTelemetry
 
 ---
 
